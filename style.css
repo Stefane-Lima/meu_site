@@ -1,0 +1,121 @@
+/* Zerando margens e preenchimentos padrão para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para o título principal */
+#titulo {
+  font-family: sans-serif;
+  color: #380b61;
+  margin-left: 10%;
+}
+
+/* Estilo para o subtítulo */
+#subtitulo {
+  font-family: sans-serif;
+  color: #380b61;
+  margin: 10%;
+  font-size: 20px;
+}
+
+/* Estilo para o corpo da página */
+body {
+  background-color: #f0f8ff;
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #59429d;
+  margin-left: 12%;
+  margin-top: 2%;
+}
+
+/* Estilo para inputs e botões */
+input, button {
+  border-radius: 5px;
+}
+
+/* Estilo para os campos do formulário */
+.campo {
+  margin-bottom: 1em;
+}
+
+.campo label {
+  margin-bottom: 0.2em;
+  color: #59429d;
+  display: block;
+}
+
+.grupo.campo {
+  float: left;
+  margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+  padding: 0.2em;
+  border: 1px solid #59429d;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+/* Estilo específico para o textarea com id="texto" */
+#texto {
+  width: 26em; /* Define a largura da área de texto */
+}
+
+/* Estilo para o botão */
+.botao {
+  font-size: 1.2em;
+  background: #59429d;
+  border: 0;
+  margin-bottom: 1em;
+  color: #ffffff;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.botao, select {
+  cursor: pointer;
+}
+
+/* Outros estilos para elementos específicos */
+#sobremim, #ads, #cursando, #ensino, #linkedin, #trabalho, #idiomas, #Estudando {
+  padding: 25px;
+}
+
+#Estudando {
+  padding: 0;
+}
+
+.socorro {
+  padding: 55px;
+  font-size: 25px;
+}
+
+#menu {
+  padding: 25px;
+}
+
+.ola, p {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.linkgeral {
+  padding: 25px;
+  font-size: 20px;
+}
+
+.meulinkedin{
+  padding: 25px;
+}
+
+.meuslinkes{
+  padding: 30px;
+  font-size: 20px;
+}

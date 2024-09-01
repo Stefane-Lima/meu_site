@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="/style.css"> <!-- Link para o arquivo CSS externo -->
+</head>
+
+<body>
+  <a class="inicio" href="../index.html">Início</a>
+
+  <div>
+    <h1 id="titulo">Contato</h1>
+    <p id="subtitulo">Para falar comigo preencha o formulário abaixo:</p>
+  </div>
+
+  <form action="formulario" class="formulario">
+    <div class="campo">
+      <label for="Nome">Nome:</label>
+      <input type="text" name="Nome" id="Nome">
+    </div>
+
+    <div class="campo">
+      <label for="Email">Email:</label>
+      <input type="email" name="email" id="email">
+    </div>
+
+    <div class="campo">
+      <label for="Mensagem">Escreva sua Mensagem:</label>
+    </div>
+    
+    <div class="campo">
+      <textarea name="Mensagem" id="texto" rows="6"></textarea> <!-- Removido estilo inline -->
+    </div>
+    
+    <button class="botao" type="submit">Enviar</button>
+  </form>
+   <form action="meuslinkes" class="meuslinkes">
+      <a href="../links/sobremim.html">Sobre Mim</a>
+      <a href="../links/formação.html">Formação</a>
+      <a href="../links/linkedin.html"> LinkedIn</a> <!-- Link para o novo arquivo HTML -->
+   </form>
+</body>
+
+</html>
